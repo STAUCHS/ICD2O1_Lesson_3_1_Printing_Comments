@@ -27,7 +27,12 @@ When we run our program, it will display to the `console` or `terminal`.
 ![terminal](terminal.png)
 
 ## Comments
-Sometimes the code we write needs some extra explanation for the person reading it. However, anything we type in the program will be read and run by Python. A solution to this is called a `Comment`. Comments are meant for the human reading the code, and not for the computer. They will never run.
+Sometimes the code we write needs some extra explanation for the person reading it. However, anything we type in the program will be read and run by Python. A solution to this is called a `Comment`. A `Comment` is text in a program that is ignored by the Python interpreter. Comments are meant for the human reading the code, and not for the computer.
+
+#### ALWAYS WRITE COMMENTS! Why?
+- Programming is often done by **teams of people** so comments will help everyone understand the code easily
+- Projects you work on will be **inherited** by other people
+- Comments make it easier for you to **read your own code!**
 
 ### Single Line Comments
 A single line comment always starts with a `#`. When the program runs, and sees a `#`, it will ignore everything written in that line.
