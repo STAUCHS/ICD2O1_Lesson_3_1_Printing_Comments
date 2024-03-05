@@ -8,7 +8,9 @@
 ## The `print` Statement
 We will create our very first Python program that will display text to the screen. 
 This is called **`printing`**. We do this using the `print` statement.
-```
+
+<ins>```EXAMPLE #1:```</ins> ```Type the code below into Lesson.py and run the program```
+```python
 print("Hello World!")
 ```
 #### Let's break down what is happening:
@@ -37,8 +39,8 @@ Sometimes the code we write needs some extra explanation for the person reading 
 ### Single Line Comments
 A single line comment always starts with a `#`. When the program runs, and sees a `#`, it will ignore everything written in that line.
 
-```
-For example:
+<ins>```EXAMPLE #2:```</ins> ```Copy and paste the following lines of comments into Lesson.py and run the program```
+```python
 # This is a comment. The computer will not read this line.
 # print("This is a comment even though it looks like a print statement. It will not run because it starts with a #")
 ```
@@ -46,7 +48,8 @@ For example:
 ### Multi-Line Comments
 Sometimes you need a longer description or explanation for your code but if you put it all in a single line comment, it will be too long and makes it difficult for the person reading it. Instead, we can use a multi-line comment by using `triple quotes` (You can use _either_ single OR double quotes - make sure to keep it consistent)
 
-```
+<ins>```EXAMPLE #3:```</ins> ```Copy and paste the multi-line comments into Lesson.py and run the program```
+```python
 '''
 Anything between the triple quotes,
 will not be run.
