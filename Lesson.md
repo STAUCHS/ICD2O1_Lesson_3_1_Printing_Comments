@@ -1,3 +1,51 @@
-# Lesson Title
+# 3.1 Printing & Comments
 
-## Subtitles
+## Success Criteria
+- [x] I can display text to the terminal/console using the print statement
+- [x] I can add single line comments to my program
+- [x] I can add multi-line comments to my program
+
+## The `print` Statement
+We will create our very first Python program that will display text to the screen. 
+This is called **`printing`**. We do this using the `print` statement.
+```
+print("Hello World!")
+```
+#### Let's break down what is happening:
+- `print` - is the statement we use to display text to the screen
+- `()` - always comes after `print` and anything you want to display to the screen **must** be inside these brackets
+- `"Hello World!"` - this is the text we want to display, known as a String. Strings are always enclosed by quotes (single OR double). We will learn more about strings later.
+
+#### You Try:
+1. Type `print("Hello World!")` into the file called `Program1.py`
+2. Then, click the play button in the top right corner:        
+![play](play.png)
+
+
+## Console/Terminal
+When we run our program, it will display to the `console` or `terminal`.
+![terminal](terminal.png)
+
+## Comments
+Sometimes the code we write needs some extra explanation for the person reading it. However, anything we type in the program will be read and run by Python. A solution to this is called a `Comment`. Comments are meant for the human reading the code, and not for the computer. They will never run.
+
+### Single Line Comments
+A single line comment always starts with a `#`. When the program runs, and sees a `#`, it will ignore everything written in that line.
+
+```
+For example:
+# This is a comment. The computer will not read this line.
+# print("This is a comment even though it looks like a print statement. It will not run because it starts with a #")
+```
+
+### Multi-Line Comments
+Sometimes you need a longer description or explanation for your code but if you put it all in a single line comment, it will be too long and makes it difficult for the person reading it. Instead, we can use a multi-line comment by using `triple quotes` (You can use _either_ single OR double quotes - make sure to keep it consistent)
+
+```
+'''
+Anything between the triple quotes,
+will not be run.
+The computer will ignore
+all of these lines.
+'''
+```
